@@ -1,0 +1,67 @@
+body{
+
+    background-image: url('img0.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+    
+}
+
+
+#hd{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.hd1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+#par{
+    
+   width: 2500px;
+   
+  padding-left: 50px;
+  padding-right: 20px;
+
+    text-align: justify;
+  
+    font-size: 30px;
+        
+   
+     
+        color: white;
+        background-color: black;
+        
+        opacity: 0.45;
+        border-radius: 25px;
+        font-family: 'Times New Roman';
+       
+}
+
+.sign{
+    color:white;
+    background-color: black;
+    opacity: 0.45;
+    font-size: 30px;
+    font-family: 'Footlight MT';
+    text-align: center;
+    padding: 30px;
+}

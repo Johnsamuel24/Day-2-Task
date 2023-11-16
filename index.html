@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+
+Welcome Page
+
+</title>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+<div class="container" id="hd">
+
+Difference Between Document Object and Window Object<br><br>
+
+</div>
+
+<div class="container" id="par" >
+  <br>
+
+
+            
+      
+           <div class="hd1" > Document Object </div>
+           <ul>
+            <li>The document object represent a web page that is loaded in the browser.<br><br></li>
+            <li>By accessing the document object, we can access the element in the HTML page.<br><br></li>
+            <li>With the help of document objects, we can add dynamic content to our web page.<br><br></li>
+            
+      </ul>
+
+                
+        Syntax ( document.property_name ; )
+  
+       <br><br>
+       
+       
+        The properties of document objects that are commonly used are:<br><br>
+        <ul>
+        <li>activeElement           : It returns the currently active elements in the document.<br><br></li>
+        <li>images	:Returns a collection of all img elements in the document<br><br></li>
+        <li>characterSet	:Returns the character encoding for the document<br><br></li>
+        <li>domain	:Returns the domain name of the server that loaded the document<br><br></li>
+        <li>embeds	:Returns a collection of all <embed> elements the document<br><br></li>
+          <li>forms	:Returns a collection of all <form> elements in the document<br><br></li>
+
+        <li>body			            : It returns the contents of the body element.<br><br></li>
+        <li>anchors		           : It returns all <a> elements that have a name attribute.<br><br></li>
+       <li>baseURI		         : It returns a string value that represents the base URI of the document.<br><br></li>
+      <li>cookie			           : It returns the cookie of the current document.<br><br></li>
+      </ul>
+      <div class="hd1" > Methods of Document: </div><br><br>
+       
+
+        Syntax ( document.method_name ; )<br><br>
+        
+  
+        
+        The lists of most commonly used methods are:<br><br>
+        <ul>
+       <li> addEventListener ()	: It is used to attach an event handler to the specified element.<br><br></li>
+       <li> adoptNode ()			: It is used to adopt a node from another document and it returns a node object, representing the adopted node.<br><br></li>
+       <li>close ()				: It is used to close the output stream.<br><br></li>
+       <li>createAttribute ()	: It is used to create an attribute node with the specified name and returns the attribute object.<br><br></li>
+       <li>createComment ()		: It is used to create a comment node with some text.<br><br></li>
+       <li>getElementsByClassName()	:Returns an HTMLCollection containing all elements with the specified class name<br><br></li>
+       <li>getElementById()	:Returns the element that has the ID attribute with the specified value<br><br></li>
+       <li>hasFocus()	:Returns a Boolean value indicating whether the document has focus<br><br></li>
+       <li>importNode()	:Imports a node from another document<br><br></li>
+       <li>open()	:Opens an HTML output stream to collect output from document.write()<br><br></li>
+
+      </ul>
+      <br>
+<br>
+<br>
+       
+        </div>
+      
+        <div class="container" id="par" style="margin-top: 50px;" >
+        
+        <br>
+        
+             
+            <div class="hd1">Window Object</div>
+            <ul>
+            <li>The window object is the top most object of the DOM hierarchy.<br><br></li>
+            <li>It represents a browser window or frame that displays the contents of the webpage.<br><br></li>
+            <li>Whenever a window appears on the screen to display the contents of the document, the window object is created.<br><br> </li>
+      </ul>
+        
+            Syntax  ( window.property_name ; )<br><br>
+        
+      
+        
+        The properties of Window objects that are commonly used are:<br><br>
+        <ul>
+          <li>document	:Returns the Document object for the window.
+            See also The Document Object. <br><br></li>
+            <li>history	:Returns the History object for the window.
+              See also The History Object. <br><br></li>
+              <li>innerHeight	:Returns the height of the window's content area (viewport) including scrollbars <br><br></li>
+              <li>location	:Returns the Location object for the window.
+                See also the The Location Object. <br><br></li>
+                <li>navigator	:Returns the Navigator object for the window.
+                  See also The Navigator object. <br><br></li>
+                  <li>pageYOffset	:Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window <br><br></li>
+                  <li>screenLeft	Returns the horizontal coordinate of the window relative to the screen <br><br></li>
+                  <li>screenTop	Returns the vertical coordinate of the window relative to the screen <br><br></li>
+
+        <li>Closed          : It holds a Boolean value that represents whether the window is closed or not.<br><br></li>
+        <li>console         : It returns a reference to the console object which provides access to the browser’s debugging console.<br><br></li>
+        <li>frames          : It represents an array that contains all the frames of a given window.<br><br></li>
+        <li>controllers     : It returns the XUL controller objects for the current Chrome window.<br><br></li>
+        <li>crypto            : It returns the browser crypto object. <br><br></li>
+      </ul>
+    
+    
+      <div class="hd1">Methods of Window :</div><br><br>
+        
+        Syntax  ( window.method_name ; )<br><br>
+        
+      
+      
+        
+        The lists of most commonly used methods are:<br><br>
+        <ul>
+          <li>addEventListener()	Attaches an event handler to the window<br><br></li>
+          <li>alert()	Displays an alert box with a message and an OK button<br><br></li>
+          <li>clearTimeout()	Clears a timer set with setTimeout()<br><br></li>
+          <li>getComputedStyle()	Gets the current computed CSS styles applied to an element<br><br></li>
+          <li>getSelection()	Returns a Selection object representing the range of text selected by the user<br><br></li>
+          <li>moveTo()	Moves a window to the specified position<br><br></li>
+          <li>prompt()	Displays a dialog box that prompts the visitor for input<br><br></li>
+
+        <li>open (): It is used to open a new tab or window with the specified URL and name.<br><br></li>
+        <li>setInterval (): It repeats a given function at every given time interval.<br><br></li>
+        <li>blur ()          : It is used to remove focus from the current window.<br><br></li>
+        <li>btoa ()          : It is used for encoding a string in base-64 format.<br><br></li>
+        <li> clearInterval () : It clears the interval which has been set by the setInterval() function before that.<br><br></li>
+      </ul>
+
+      <br>
+<br>
+<br>
+
+        </div>
+      
+     
+      
+    
+      <br>
+      <br>
+      <br>
+   
+
+
+<br>
+<br>
+
+
+</body>
+
+</html>
